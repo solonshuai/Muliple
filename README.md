@@ -12,11 +12,12 @@
     app:loadingView="@layout/layout_loading_view"
     app:noNetworkView="@layout/layout_network_view">
 </com.zhjk.admin.mylibrary.MultipleStatusView >
+
 //调用 加载
 mLayoutStatusView?.showLoading()
 
 // 加载完成 展示页面
-  mLayoutStatusView?.showContent()
+mLayoutStatusView?.showContent()
   
 //加载网络错误 
 mLayoutStatusView?.showNoNetwork()
